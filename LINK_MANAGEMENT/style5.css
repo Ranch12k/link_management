@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+@-webkit-keyframes example {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes example {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+display: flex;
+right: -0px;
+}
+.modal {
+    /* display: none; */
+    position: fixed;
+    /* left: 0;
+top: 0;  */
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    /* overflow: auto; */
+    background-color: transparent;
+    border-radius: 2%;
+    box-shadow: blue 2px 2px 3px;
+    /* transition: animation 0.2s; */
+
+}
+
+/* .modal:target {
+    display: table;
+    margin:  auto 350px auto ;
+    position: absolute;
+    -webkit-animation: example;
+    -webkit-animation: 2s;
+
+    animation-name: example;
+    animation-duration: 2s;
+    transform: translate(-50% -50%);
+
+
+
+} */
+.modal {
+    display: table;
+    margin:  auto 350px auto ;
+    position: absolute;
+    -webkit-animation: example;
+    -webkit-animation: 2s;
+
+    animation-name: example;
+    animation-duration: 2s;
+    transform: translate(-50% -50%);
+
+
+
+}
+
+.close-btn {
+    width: 20px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    float: right;
+    margin: 15px;
+    margin-top: -10px;
+
+}
+
+.modeld {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: table-cell;
+    vertical-align: middle;
+
+}
